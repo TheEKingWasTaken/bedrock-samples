@@ -1695,6 +1695,28 @@
   "small_amethyst_bud": {
     "textures": "small_amethyst_bud"
   },
+  "smithing_table" : {
+      "sound" : "wood",
+      "textures" : {
+         "down" : "smithing_table_bottom",
+         "east" : "smithing_table_side",
+         "north" : "smithing_table_front",
+         "south" : "smithing_table_front",
+         "up" : "smithing_table_top",
+         "west" : "smithing_table_side"
+      }
+   },
+   "smoker" : {
+      "sound" : "stone",
+      "textures" : {
+         "down" : "smoker_bottom",
+         "east" : "smoker_side",
+         "north" : "smoker_side",
+         "south" : "smoker_front_off",
+         "up" : "smoker_top",
+         "west" : "smoker_side"
+      }
+   },
   "smooth_basalt": {
     "textures": "smooth_basalt"
   },
