@@ -391,6 +391,16 @@
       "west": "crafter_west"
     }
   },
+  "crafting_table" : {
+      "textures" : {
+         "down" : "crafting_table_bottom",
+         "east" : "crafting_table_side",
+         "north" : "crafting_table_front",
+         "south" : "crafting_table_front",
+         "up" : "crafting_table_top",
+         "west" : "crafting_table_side"
+      }
+   },
   "creaking_heart": {
     "textures": {
       "down": "creaking_heart_top",
@@ -737,6 +747,16 @@
   "frosted_ice": {
     "textures": "frosted_ice"
   },
+  "furnace" : {
+      "textures" : {
+         "down" : "furnace_top",
+         "east" : "furnace_side",
+         "north" : "furnace_front_off",
+         "south" : "furnace_side",
+         "up" : "furnace_top",
+         "west" : "furnace_side"
+      }
+   },
   "gilded_blackstone": {
     "textures": "gilded_blackstone"
   },
@@ -1057,6 +1077,16 @@
     "isotropic": false,
     "textures": "deepslate_redstone_ore"
   },
+  "lit_furnace" : {
+      "textures" : {
+         "down" : "furnace_top",
+         "east" : "furnace_side",
+         "north" : "furnace_front_on",
+         "south" : "furnace_side",
+         "up" : "furnace_top",
+         "west" : "furnace_side"
+      }
+   },
   "lit_pumpkin": {
     "textures": {
       "down": "pumpkin_top",
@@ -1097,6 +1127,16 @@
       "up": "log_top2"
     }
   },
+  "loom" : {
+      "textures" : {
+         "down" : "loom_bottom",
+         "east" : "loom_side",
+         "north" : "loom_front",
+         "south" : "loom_side",
+         "up" : "loom_top",
+         "west" : "loom_side"
+      }
+   },
   "magenta_concrete": {
     "textures": "magenta_concrete"
   },
