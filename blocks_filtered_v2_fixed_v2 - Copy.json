@@ -117,9 +117,6 @@
   "blue_ice": {
     "textures": "blue_ice"
   },
-  "blue_orchid": {
-    "textures": "flower_blue_orchid"
-  },
   "blue_terracotta": {
     "textures": "hardened_clay_stained_blue"
   },
@@ -415,9 +412,6 @@
   "cyan_wool": {
     "textures": "wool_colored_cyan"
   },
-  "dandelion": {
-    "textures": "flower_dandelion"
-  },
   "dark_oak_log": {
     "textures": {
       "bottom": "log_big_oak_top",
@@ -520,43 +514,16 @@
     "textures": "dirt"
   },
   "dispenser": {
-    "carried_textures": {
-      "bottom": "dispenser_top",
-      "right": "dispenser_side",
-      "front": "dispenser_side",
-      "back": "dispenser_front_horizontal",
-      "top": "dispenser_top",
-      "left": "dispenser_side"
-    },
     "textures": {
       "bottom": "furnace_top",
-      "right": "dispenser_front_vertical",
+      "right": "dispenser_front_horizontal",
       "front": "furnace_side",
-      "back": "dispenser_front_horizontal",
+      "back": "furnace_side",
       "top": "furnace_top",
       "left": "furnace_side"
     }
   },
-  "dried_ghast": {
-    "carried_textures": "dried_ghast_tentacles",
-    "textures": {
-      "bottom": "dried_ghast_state_1_bottom",
-      "right": "dried_ghast_state_1_left",
-      "front": "dried_ghast_state_1_back",
-      "back": "dried_ghast_state_1_front",
-      "top": "dried_ghast_state_1_top",
-      "left": "dried_ghast_state_1_right"
-    }
-  },
-  "dried_kelp_block": {
-    "carried_textures": {
-      "bottom": "dried_kelp_block_top",
-      "right": "dried_kelp_block_side_a",
-      "front": "dried_kelp_block_side_b",
-      "back": "dried_kelp_block_side_a",
-      "top": "dried_kelp_block_top",
-      "left": "dried_kelp_block_side_b"
-    },
+  "dried_kelp_block": {,
     "textures": {
       "bottom": "dried_kelp_top",
       "right": "dried_kelp_side_b",
@@ -580,9 +547,9 @@
     },
     "textures": {
       "bottom": "furnace_top",
-      "right": "dropper_front_vertical",
+      "right": "dropper_front_horizontal",
       "front": "furnace_side",
-      "back": "dropper_front_horizontal",
+      "back": "furnace_side",
       "top": "furnace_top",
       "left": "furnace_side"
     }
@@ -595,26 +562,6 @@
   },
   "end_bricks": {
     "textures": "end_bricks"
-  },
-  "end_gateway": {
-    "textures": "end_gateway"
-  },
-  "end_portal": {
-    "textures": "end_portal"
-  },
-  "end_portal_frame": {
-    "carried_textures": "endframe_eye",
-    "textures": {
-      "bottom": "end_stone",
-      "right": "endframe_side",
-      "front": "endframe_side",
-      "back": "endframe_side",
-      "top": "endframe_top",
-      "left": "endframe_side"
-    }
-  },
-  "end_rod": {
-    "textures": "end_rod"
   },
   "end_stone": {
     "textures": "end_stone"
@@ -637,10 +584,6 @@
     "isotropic": false,
     "textures": "exposed_cut_copper"
   },
-  "exposed_lightning_rod": {
-    "isotropic": false,
-    "textures": "exposed_lightning_rod"
-  },
   "farmland": {
     "textures": {
       "bottom": "dirt",
@@ -658,17 +601,6 @@
       "side": "fire_0",
       "top": "fire_0"
     }
-  },
-  "flowing_lava": {
-    "textures": {
-      "bottom": "lava_still",
-      "side": "lava_flow",
-      "top": "lava_still"
-    }
-  },
-  "format_version": "1.21.40",
-  "frame": {
-    "textures": "itemframe_background"
   },
   "frog_spawn": {
     "textures": "frogspawn"
@@ -692,16 +624,6 @@
   "glass": {
     "textures": "glass"
   },
-  "glow_frame": {
-    "textures": "glow_item_frame"
-  },
-  "glow_lichen": {
-    "textures": "glow_lichen"
-  },
-  "glowingobsidian": {
-    "ambient_occlusion_exponent": 1.0,
-    "textures": "glowing_obsidian"
-  },
   "glowstone": {
     "isotropic": true,
     "textures": "glowstone"
@@ -716,30 +638,10 @@
     "textures": "stone_granite"
   },
   "grass": {
-    "carried_textures": {
-      "bottom": "grass_carried_bottom",
-      "side": "grass_carried",
-      "top": "grass_carried_top"
-    },
-    "isotropic": {
-      "bottom": true,
-      "top": true
-    },
     "textures": {
       "bottom": "dirt",
       "side": "grass_side",
       "top": "grass_top"
-    }
-  },
-  "grass_path": {
-    "isotropic": {
-      "bottom": true,
-      "top": true
-    },
-    "textures": {
-      "bottom": "dirt",
-      "side": "grass_path_side",
-      "top": "grass_path_top"
     }
   },
   "gravel": {
@@ -849,10 +751,6 @@
   "light_gray_wool": {
     "textures": "wool_colored_silver"
   },
-  "lightning_rod": {
-    "isotropic": false,
-    "textures": "lightning_rod"
-  },
   "lime_concrete": {
     "textures": "concrete_lime"
   },
@@ -947,10 +845,6 @@
   "magenta_wool": {
     "textures": "wool_colored_magenta"
   },
-  "magma": {
-    "isotropic": true,
-    "textures": "magma"
-  },
   "mangrove_log": {
     "textures": {
       "bottom": "mangrove_log_top",
@@ -983,9 +877,6 @@
   "mossy_stone_bricks": {
     "textures": "stonebrick_mossy"
   },
-  "movingBlock": {
-    "textures": "missing_tile"
-  },
   "mud": {
     "textures": "mud"
   },
@@ -1009,9 +900,6 @@
   },
   "nether_gold_ore": {
     "textures": "nether_gold_ore"
-  },
-  "nether_wart": {
-    "textures": "nether_wart_stage_0"
   },
   "nether_wart_block": {
     "textures": "nether_wart_block"
@@ -1074,14 +962,8 @@
   "orange_terracotta": {
     "textures": "hardened_clay_stained_orange"
   },
-  "orange_tulip": {
-    "textures": "flower_tulip_orange"
-  },
   "orange_wool": {
     "textures": "wool_colored_orange"
-  },
-  "oxeye_daisy": {
-    "textures": "flower_oxeye_daisy"
   },
   "oxidized_chiseled_copper": {
     "textures": "oxidized_chiseled_copper"
@@ -1146,15 +1028,10 @@
     "textures": "wool_colored_pink"
   },
   "piston": {
-    "carried_textures": {
-      "bottom": "piston_bottom",
-      "side": "piston_side",
-      "top": "piston_top_normal"
-    },
     "textures": {
       "bottom": "piston_bottom",
       "side": "piston_side",
-      "top": "piston_inner"
+      "top": "piston_top_normal"
     }
   },
   "planks": {
@@ -1169,16 +1046,6 @@
       "bottom": "dirt",
       "side": "dirt_podzol_side",
       "top": "dirt_podzol_top"
-    }
-  },
-  "pointed_dripstone": {
-    "textures": {
-      "bottom": "pointed_dripstone_down_frustum",
-      "right": "pointed_dripstone_down_base",
-      "front": "pointed_dripstone_down_tip",
-      "back": "pointed_dripstone_down_middle",
-      "top": "pointed_dripstone_down_base",
-      "left": "pointed_dripstone_down_merge"
     }
   },
   "polished_andesite": {
@@ -1214,18 +1081,15 @@
     "isotropic": false,
     "textures": "powder_snow"
   },
-  "prismarine": {
-    "textures": "prismarine_rough"
-  },
   "prismarine_bricks": {
     "textures": "prismarine_bricks"
   },
   "pumpkin": {
     "textures": {
       "bottom": "pumpkin_top",
-      "right": "pumpkin_side",
+      "right": "pumpkin_face_off",
       "front": "pumpkin_side",
-      "back": "pumpkin_face_off",
+      "back": "pumpkin_side",
       "top": "pumpkin_top",
       "left": "pumpkin_side"
     }
@@ -1349,9 +1213,6 @@
       "left": "repeating_command_block_side_mipmap"
     }
   },
-  "reserved6": {
-    "textures": "missing_tile"
-  },
   "resin_block": {
     "textures": "resin_block"
   },
@@ -1408,8 +1269,8 @@
     "textures": {
       "bottom": "smoker_bottom",
       "right": "smoker_side",
-      "front": "smoker_side",
-      "back": "smoker_front_off",
+      "front": "smoker_front_off",
+      "back": "smoker_side",
       "top": "smoker_top",
       "left": "smoker_side"
     }
@@ -1493,15 +1354,10 @@
     "textures": "hardened_clay_stained_white"
   },
   "sticky_piston": {
-    "carried_textures": {
-      "bottom": "piston_bottom",
-      "side": "piston_side",
-      "top": "piston_top_sticky"
-    },
     "textures": {
       "bottom": "piston_bottom",
       "side": "piston_side",
-      "top": "piston_inner"
+      "top": "piston_top_sticky"
     }
   },
   "stone": {
@@ -1748,9 +1604,6 @@
   "white_wool": {
     "textures": "wool_colored_white"
   },
-  "wither_rose": {
-    "textures": "flower_wither_rose"
-  },
   "wood": {
     "textures": "log_oak"
   },
@@ -1772,4 +1625,5 @@
   "yellow_wool": {
     "textures": "wool_colored_yellow"
   }
+
 }
